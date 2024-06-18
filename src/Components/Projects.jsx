@@ -25,10 +25,10 @@ const Myntragithublink = ()=>{
 }
 
 const Sugarlink = ()=>{
-   window.open("https://sugar-cosmetics-lilac.vercel.app/");
+   window.open("https://sugar-cosmetics-react.vercel.app/");
 }
 const Sugargithublink = ()=>{
-   window.open("https://github.com/uttammane1/Sugar-Cosmetics");
+   window.open("https://github.com/uttammane1/Sugar-Cosmetics-React");
 }
 
 const Reliancelink = ()=>{
@@ -278,6 +278,22 @@ const Bellavitagithublink = () => {
                            <img className='iconimg' src={Javascriptimg} alt="javascript" />
                         </div>
                      </Tooltip>
+                     <Tooltip label="React" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                        <div className='icon-background'>
+                           <img className='iconimg' src={reactimg} alt="react" />
+                        </div>
+                     </Tooltip>
+
+                     <Tooltip label="Chakra-UI" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                        <div className='icon-background'>
+                           <img className='iconimg' src={chakraui} alt="chakraui" />
+                        </div>
+                     </Tooltip>
+                     <Tooltip label="Redux" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                        <div className='icon-background'>
+                           <img className='iconimg' src={reduximg} alt="redux" />
+                        </div>
+                     </Tooltip>
 
                   </div>
                </div>
@@ -346,6 +362,23 @@ const Bellavitagithublink = () => {
                      "As a frontend developer, I'm excited to be working on an innovative project for Reliance Digital, creating a cutting-edge online experience for tech enthusiasts. Utilizing HTML, CSS, JavaScript, React.js, Chakra UI, and Redux, I'm designing and implementing various pages, including a sleek home page, a curated electronics collection page, a dedicated section for home appliances, a showcase for the latest gadgets, a dynamic trending page for the newest tech releases, and an informative blog platform. Additionally, I'm integrating essential features like a seamless cart system for effortless shopping and a secure login page for personalized experiences. Stay tuned for a visually stunning and user-centric journey into the world of Reliance Digital!."
                   </p>
                   <div className='project-tech-stack techstacks'>
+                     <Tooltip label="HTML" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                        <div className='icon-background'>
+                           <img className='iconimg' src={htmlimg} alt="html" />
+                        </div>
+                     </Tooltip>
+                     <Tooltip label="CSS" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                        <div className='icon-background'>
+                           <img className='iconimg' src={Cssimg} alt="css" />
+                        </div>
+                     </Tooltip>
+                     
+                     <Tooltip label="JavaScript" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                        <div className='icon-background'>
+                           <img className='iconimg' src={Javascriptimg} alt="javascript" />
+                        </div>
+                     </Tooltip>
+
                      <Tooltip label="React" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
                         <div className='icon-background'>
                            <img className='iconimg' src={reactimg} alt="react" />
@@ -360,22 +393,6 @@ const Bellavitagithublink = () => {
                      <Tooltip label="Redux" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
                         <div className='icon-background'>
                            <img className='iconimg' src={reduximg} alt="redux" />
-                        </div>
-                     </Tooltip>
-                    
-                     <Tooltip label="JavaScript" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
-                        <div className='icon-background'>
-                           <img className='iconimg' src={Javascriptimg} alt="javascript" />
-                        </div>
-                     </Tooltip>
-                     <Tooltip label="HTML" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
-                        <div className='icon-background'>
-                           <img className='iconimg' src={htmlimg} alt="html" />
-                        </div>
-                     </Tooltip>
-                     <Tooltip label="CSS" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
-                        <div className='icon-background'>
-                           <img className='iconimg' src={Cssimg} alt="css" />
                         </div>
                      </Tooltip>
 
