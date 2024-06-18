@@ -114,11 +114,11 @@ const Bellavitagithublink = () => {
                            <img className='iconimg' src={Cssimg} alt="css" />
                         </div>
                      </Tooltip>
-                     <Tooltip label="JavaScript" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
+                     {/* <Tooltip label="JavaScript" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
                         <div className='icon-background'>
                            <img className='iconimg' src={Javascriptimg} alt="javascript" />
                         </div>
-                     </Tooltip>
+                     </Tooltip> */}
                   </div>
                </div>
                <div className='smallscreenbtns'>
@@ -259,7 +259,7 @@ const Bellavitagithublink = () => {
                   <p className="heading project-title">Sugar Cosmetics </p>
          
                   <p className="para project-description">
-                  "As a frontend developer, I'm currently working on an exciting project for Sugar Cosmetics, crafting an engaging online experience for makeup enthusiasts. Leveraging HTML, CSS, JavaScript. I'm designing and implementing various pages including the vibrant home page, a curated makeup collection page, a dedicated brushes section for beauty essentials, skincare products showcasing health and beauty, a dynamic trending page for the latest in cosmetics, and an engaging blog platform. Additionally, I'm integrating essential features like a seamless cart system for effortless shopping and a secure login page for personalized experiences. Stay tuned for a visually captivating and user-centric journey into the world of Sugar Cosmetics!"
+                  "As a frontend developer, I'm currently working on an exciting project for Sugar Cosmetics, crafting an engaging online experience for makeup enthusiasts. Leveraging HTML, CSS, JavaScript and React. I'm designing and implementing various pages including the vibrant home page, a curated makeup collection page, a dedicated brushes section for beauty essentials, skincare products showcasing health and beauty, a dynamic trending page for the latest in cosmetics, and an engaging blog platform. Additionally, I'm integrating essential features like a seamless cart system for effortless shopping and a secure login page for personalized experiences. Stay tuned for a visually captivating and user-centric journey into the world of Sugar Cosmetics!"
                   </p>
                   <div className='project-tech-stack techstacks'>
                      <Tooltip label="HTML" hasArrow bg={"#0e4166"} paddingLeft={"5px"} paddingRight={"5px"} fontSize={"0.8rem"} color={"white"} aria-label='A tooltip'>
