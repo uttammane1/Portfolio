@@ -1,0 +1,295 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+
+
+.menu-btn {
+  color: black;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.navdiv {
+  width: 100%;
+}
+
+.menu {
+  position: relative;
+  bottom: 10px;
+}
+
+.menu-btn-position {
+  position: relative;
+  bottom: 8px;
+}
+
+.title_logo {
+  position: relative;
+  bottom: 6px;
+}
+
+.title_logo>img {
+  width: 80px;
+}
+
+.navbar {
+  margin: auto;
+  background-color: transparent;
+  width: 100%;
+  height: 63px;
+  padding: 0 50px 0 50px;
+  position: fixed;
+  z-index: 999;
+  transition: all 0.3s ease;
+  /* border: 1px solid red; */
+  
+}
+.navbar h1 {
+  color: #e0f2fe;
+  bottom: 10px;
+  font-weight: bolder;
+  font-family: cursive;
+  cursor: pointer;
+  /* margin-top: 5px; */
+}
+.activenavbar {
+  margin: auto;
+  background-color: transparent;
+  width: 100%;
+  height: 63px;
+  padding: 0 50px 0 50px;
+  position: fixed;
+  z-index: 999;
+  transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #e0f2fe;
+  color: #008080;
+}
+.activenavbar h1 {
+  color: #008080;
+  bottom: 10px;
+  font-weight: bolder;
+  font-family: cursive;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.navbar.sticky {
+  padding: 15px 0;
+  background: #171c23;
+  /* color: #ffffff;  */
+}
+
+.activenavbar.sticky {
+  padding: 15px 0;
+  background: #171c23;
+  /* color: #ffffff; */
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activenavbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+  /* color: #ffffff;  */
+}
+
+.activenavbar .logo a {
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.navbar .logo a span {
+  color: #0faaf1;
+  transition: all 0.3s ease;
+}
+
+.activenavbar .logo a span {
+  color: #0faaf1;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+
+.activenavbar.sticky .logo a span {
+  color: #fff;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+  /* color: #ffffff; */
+}
+
+.activenavbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  display: block;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+
+  letter-spacing: 0.8px;
+  letter-spacing: 2px;
+  color: #e0f2fe;       /* //////////////////// */
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.activenavbar .menu li a {
+  display: block;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+
+  letter-spacing: 0.8px;
+  letter-spacing: 2px;
+  color: #008080;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar .menu li a:hover {
+  color: #a8dff1;
+}
+
+.navbar.sticky .menu li a:hover {
+  color: #a8dff1;
+}
+
+.activenavbar .menu li a:hover {
+  color: #499D4A;
+}
+
+.activenavbar.sticky .menu li a:hover {
+  color: #499D4A;
+}
+
+
+
+@media (max-width: 967px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+    margin-top: 15px;
+  }
+
+  .menu-btn i.active:before {
+    content: "\f00d";
+    color: white;
+  }
+
+  .activenavbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .activenavbar .menu.active {
+    left: 0;
+  }
+
+  .activenavbar .menu li {
+    display: block;
+  }
+
+  .activenavbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .activenavbar .logo a {
+    font-size: 25px;
+  }
+
+  .activenavbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .activenavbar .menu.active {
+    left: 0;
+  }
+
+  .activenavbar .menu li {
+    display: block;
+  }
+
+  .activenavbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .activenavbar .logo a {
+    font-size: 25px;
+  }
+
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+
+  .navbar .menu li {
+    display: block;
+  }
+
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .navbar .logo a {
+    font-size: 25px;
+  }
+
+  .navbar {
+    padding: 0 30px 0 30px;
+  }
+
+  .activenavbar {
+    padding: 0 30px 0 30px;
+  }
+  .title_logo>img {
+    width: 70px;
+  }
+}

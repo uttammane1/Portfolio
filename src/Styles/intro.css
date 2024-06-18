@@ -1,0 +1,176 @@
+
+
+
+
+.intro-main-img-div {
+    background-size: cover;
+    /* height: 90vh; */
+    height: 890px;
+}
+
+
+.svgbg {
+
+    width: 100%;
+    height: 850px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+}
+
+.intro-main-text-div {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    bottom: 700px;
+
+}
+
+.intro-main-text-div>div:nth-child(1) {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nameh1tag{
+   
+color: #a8dff1;
+text-align: center;
+font-size: 4rem;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 0.2rem;
+word-spacing: normal;
+    
+}
+
+.typewriter{
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ letter-spacing: 0.2rem;
+ color: #B5D9EB;
+}
+
+.devloperimg{
+
+   width: 20rem;
+}
+
+.devloperimg-div{
+    width: 20rem;
+   
+    margin: auto;
+
+}
+
+.socialamedialogos{
+    width: 10rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.socialamedialogos>div{
+   background-color: #0e4166;
+   width: fit-content;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   border-radius: 0.2rem;
+   cursor: pointer;
+}
+
+.socialamedialogos>div:hover{
+    background-color: white;
+  
+
+
+    .icon-github{
+        color: #0e4166;
+    }
+    .icon-email{
+        color: #0e4166;
+    }
+    .icon-linkedin{
+        color: #0e4166;
+    }
+
+}
+
+
+.icon-github{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+
+.icon-email{
+    width: 25px;
+    height: 25px;
+    color: white;
+
+}
+.icon-linkedin{
+    width: 25px;
+    height: 25px;
+    color: white;
+
+}
+
+
+
+/* **********   Tab Screens **********/
+
+@media screen and (min-width: 767px) and (max-width: 1124px){
+
+    .nameh1tag{
+        font-size: 3rem;
+    }
+
+    .typewriter{
+        letter-spacing: 0.2rem;
+        font-size: 2rem;
+    }
+    .devloperimg{
+        width: 16rem;
+    }
+    .devloperimg-div{
+        width: 16rem;
+    }
+}
+
+@media screen and (min-width: 1117px) and (max-width: 1174px){
+    .socialamedialogos{
+        margin-top: 50px;
+    }
+}
+
+
+/* **********   Small Screens **********/
+
+@media screen and (max-width: 767px){
+    .intro-main-img-div {
+        height: 830px;
+     }
+    .nameh1tag{
+        font-size: 2rem;
+    }
+    .typewriter{
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+    }
+    .devloperimg{
+        width: 12rem;
+    }
+    .devloperimg-div{
+        width: 12rem;
+    }
+    .svgbg {
+        height: 800px;
+    }
+    .socialamedialogos{
+        margin-top: 250px;
+    }
+}

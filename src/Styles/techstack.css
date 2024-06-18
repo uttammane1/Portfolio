@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.Tech-Stacks {
+  padding-top: 100px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.heading-div {
+  width: fit-content;
+  margin: auto;
+}
+
+
+.heading-textbtn {
+  color: black;
+  font-family: inherit;
+  font-weight: 800;
+
+  margin: auto;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+
+}
+
+.heading-textbtn:focus,
+.heading-textbtn:hover {
+  color: black;
+}
+
+.heading-textbtn:focus:after,
+.heading-textbtn:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.heading-textbtn:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+/*      */
+
+
+.logosofstacks {
+  width: 65%;
+  margin: auto;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  padding-left: 8rem;
+}
+
+.coin {
+  font-size: 100px;
+  width: 0.1em;
+  height: 1em;
+  /* background: linear-gradient(#f7df1e, #141001); */
+  animation: rotate_4001510 7s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.coin .side,
+.coin:before,
+.coin:after {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  border-radius: 50%;
+  right: -0.4em;
+  text-align: center;
+  line-height: 1;
+  transform: rotateY(-90deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.coin .tails,
+.coin:after {
+  left: -0.4em;
+  transform: rotateY(90deg);
+}
+
+.coin:before,
+.coin:after {
+  /* background: linear-gradient(#f7df1e, #141001); */
+  backface-visibility: hidden;
+  transform: rotateY(90deg);
+}
+
+.coin:after {
+  transform: rotateY(-90deg);
+}
+
+@keyframes rotate_4001510 {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.svg_back {
+  transform: scaleX(-1);
+}
+
+
+.jslogo {
+  background: linear-gradient(#f7df1e, #141001);
+}
+
+.jslogo:before,
+.jslogo:after {
+  background: linear-gradient(#f7df1e, #141001);
+
+}
+
+.html_logo {
+  background: linear-gradient(#FFE6E2, #141001);
+}
+
+.html_logo:before,
+.html_logo:after {
+  background: linear-gradient(#FFE6E2, #141001);
+
+}
+
+.Css_logo {
+  background: linear-gradient(#FFE6E2, #FFE6E2);
+}
+
+.Css_logo:before,
+.Css_logo:after {
+  background: linear-gradient(#FFE6E2, #FFE6E2);
+
+}
+
+.react_logo {
+  background: linear-gradient(#FFE6E2, #141001);
+}
+
+.react_logo:before,
+.react_logo:after {
+  background: linear-gradient(#FFE6E2, #141001);
+
+}
+
+
+.Chakra_logo {
+  background: linear-gradient(#4db6ac, #4db6ac);
+}
+
+.Chakra_logo:before,
+.Chakra_logo:after {
+  background: linear-gradient(#4db6ac, #4db6ac);
+
+}
+
+.Typesscript_logo {
+  background: linear-gradient(#007acc, #007acc);
+}
+
+.Typesscript_logo:before,
+.Typesscript_logo:after {
+  background: linear-gradient(#007acc, #007acc);
+
+}
+
+/* .Nodejs_logo{
+    background: linear-gradient(#21A366, #21A366);
+  }
+  .Nodejs_logo:before, .Nodejs_logo:after{
+    background: linear-gradient(#21A366, #21A366);
+
+  } */
+.github_logo_logo {
+  background: linear-gradient(white, white);
+}
+
+.github_logo:before,
+.github_logo:after {
+  background: linear-gradient(white, white);
+
+}
+
+.tooltip-font{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding: 3px;
+}
+
+.logo_spin{
+  width: 90px;
+  height: 90px;
+}
+
+@media screen and (min-width:861px) and (max-width:1229px){
+  
+
+  .logosofstacks{
+    width: 80%;
+  }
+
+
+  .logo_spin{
+    width: 80px;
+    height: 80px;
+  }
+
+
+}
+
+@media screen and (min-width:600px) and (max-width:861px){
+
+  .logosofstacks{
+    width: 80%;
+    padding-left: 0;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid red; */
+    padding-left: 135px;
+  }
+  .logo_spin{
+    width: 70px;
+    height: 70px;
+  }
+
+}
+
+
+@media screen and (max-width:600px){
+  
+
+  .logosofstacks{
+    width: 80%;
+    padding-left: 66px;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .coin{
+    font-size:4rem;
+  }
+
+  .css-logo-width{
+    width: 2.8rem;
+  }
+  .chakra-logo-width{
+    width: 4rem;
+    margin-top: -17px;
+  }
+.typescript{
+  width: 3rem;
+  border-radius: 1rem;
+}
+.logo_spin{
+  width: 40px;
+  height: 40px;
+}
+}

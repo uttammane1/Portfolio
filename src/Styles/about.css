@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.About-div{
+    padding-top: 60px;
+    
+}
+.about-me{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+   
+}
+
+.image-des{
+   
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.image-des>div>img{
+    width: 300px;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid black;
+}
+
+.image-des>div>p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 10px;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+    /* padding: 40px; */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+
+}
+
+.download-button {
+    position: relative;
+    border-width: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+   }
+   
+   .download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #242a35;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+
+
+   .resume-button{
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+   }
+   
+   .download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+      
+   }
+   
+   .download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #01e056;
+    border: solid 1px #01e0572d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+   }
+   
+   .download-button:hover .download {
+    transform: translateY(100%)
+   }
+   
+   .download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+   }
+   
+   @keyframes docs {
+    0% {
+     transform: translateY(0%);
+    }
+   
+    50% {
+     transform: translateY(-15%);
+    }
+   
+    100% {
+     transform: translateY(0%);
+    }
+   }
+   
+  
+
+
+
+   @media screen and (max-width: 767px){
+
+    .image-des{
+   
+        display: block;
+        width: 85%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .image-des>div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .image-des>div>img{
+        width: 200px;
+        
+    }
+
+    .image-des>div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image-des>div:nth-child(2)>p{
+        font-size: 1rem;
+        line-height: normal;
+        padding-right: 10px;
+    }
+
+    .resume-button{
+        width: 120px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+   }

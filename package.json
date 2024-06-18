@@ -1,0 +1,57 @@
+{
+  "homepage": "https://Saurav9284.github.io/",
+  "name": "myportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "atropos": "^1.0.2",
+    "framer-motion": "^10.12.12",
+    "github-calendar": "^2.3.2",
+    "nodemailer": "^6.9.2",
+    "react": "^18.2.0",
+    "react-activity-calendar": "^2.0.2",
+    "react-dom": "^18.2.0",
+    "react-github-calendar": "^4.0.0",
+    "react-github-contribution-calendar": "^2.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "react-scripts": "5.0.1",
+    "react-simple-typewriter": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}

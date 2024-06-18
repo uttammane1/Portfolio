@@ -1,0 +1,654 @@
+
+
+
+.mainheading {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.heading-div {
+  width: fit-content;
+  margin: auto;
+}
+
+
+.heading-textbtn {
+  color: black;
+  font-family: inherit;
+  font-weight: 800;
+
+  margin: auto;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+
+}
+
+.heading-textbtn:focus,
+.heading-textbtn:hover {
+  color: black;
+}
+
+.heading-textbtn:focus:after,
+.heading-textbtn:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.heading-textbtn:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+.Projects-maindiv {
+  padding-top: 50px;
+}
+
+.Projectcards-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+/* project card */
+
+.card{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  margin-top: 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  gap: 20px;
+  color: #e8e8e8;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content .heading {
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+
+}
+
+.content .para {
+  line-height: 1.5;
+  color: black;
+  text-align: justify;
+  font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+
+
+.btnhover>.btn {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(-45deg, #3F9190 0%, #3E9BCC 100%);
+  z-index: -1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover::before {
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.card:hover .btn {
+  color: #212121;
+  background: #e8e8e8;
+}
+
+.btnhover>.btn:hover {
+  outline: 2px solid #e8e8e8;
+  background: transparent;
+  color: #e8e8e8;
+}
+
+.btnhover>.btn:active {
+  box-shadow: none;
+}
+
+
+.card:hover .heading {
+  color: white;
+  filter: drop-shadow(0 0 23px white);
+}
+
+.card:hover .para {
+  color: white;
+}
+
+.card:hover .icon-background {
+  background-color: #212121;
+  padding: 4px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  filter: none;
+}
+.card:hover .icon-backgroundforexpress {
+  background-color: #f0e8e8fb;
+  padding: 4px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  filter: none;
+}
+
+.projectimage {
+  width: 550px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.btnhover {
+  transform: translateY(200%);
+  opacity: 0;
+  transition: transform .2s ease, opacity .2s ease;
+  /* border: 1px solid black; */
+  width: 40%;
+  margin: auto;
+  position: relative;
+  bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+ margin-bottom: 10px;
+}
+
+.card:hover .btnhover {
+  transform: translateY(100%);
+  opacity: 1;
+}
+
+.techstacks {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+
+.techstacks-fashion {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+
+}
+
+.icon-background{
+  filter: drop-shadow(2px 2px 10px rgb(66, 64, 64))
+}
+.icon-backgroundforexpress{
+  filter: drop-shadow(2px 2px 10px rgb(66, 64, 64))
+}
+
+
+.iconimg {
+  width: 35px;
+}
+
+/* .icon-background{
+    background-color: #212121;
+    padding: 4px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+  } */
+
+
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: #0e4166;
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 17px;
+}
+
+.gitnubicon {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gitnubicon svg {
+  width: 30px;
+}
+
+.sign svg path {
+  fill: white;
+}
+
+.gitnubicon svg path {
+  fill: white;
+}
+
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+
+/* hover effect on button width */
+.Btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+
+.Btn:hover .gitnubicon {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px, 2px);
+}
+
+
+/* Mobile btn */
+.smallscreenbtns{
+  display: none;
+}
+
+.smallscreenbtns button {
+  font-size: 0.8rem;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ .smallscreenbtns button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ .smallscreenbtns button:active {
+  transform: translate(0em, 0.2em);
+ }
+
+ .smallscreenbtns>button:nth-child(1)>div {
+  width: 180%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  right: 16px;
+
+ }
+ 
+ .smallscreenbtns>button:nth-child(2)> .mobilegitbtn{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  right: 16px;
+ 
+ }
+
+
+ .Tabscreenbtns{
+  display: none;
+ }
+
+
+@media screen and (min-width:1057px) and (max-width:1229px){
+
+.projectimage{
+  width: 400px;
+}
+
+.content .heading {
+  font-weight: 600;
+  font-size: 28px;
+  color: black;
+  text-align: center;
+
+}
+
+.content .para {
+  line-height: 1.5;
+  color: black;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.iconimg {
+  width: 28px;
+}
+.icon-background {
+  background-color: #212121;
+  padding: 2px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.btnhover{
+  display: none;
+}
+
+.Tabscreenbtns{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 13px;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .Tabscreenbtns button {
+  font-size: 0.8rem;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ .Tabscreenbtns button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ .Tabscreenbtns button:active {
+  transform: translate(0em, 0.2em);
+ }
+
+ .Tabscreenbtns>button:nth-child(1)>div {
+  width: 180%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  right: 16px;
+
+ }
+ 
+ .Tabscreenbtns>button:nth-child(2)> .mobilegitbtn{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  right: 16px;
+ 
+ }
+ 
+ .mobilegitbtn{
+  width: 130%;
+ }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:800px) and (max-width:1057px){
+
+.projectimage{
+  width: 300px;
+}
+
+.content .heading {
+  font-weight: 600;
+  font-size: 23px;
+  color: black;
+  text-align: center;
+
+}
+
+.content .para {
+  line-height: 1.5;
+  color: black;
+  font-size: 0.7rem;
+  text-align: justify;
+}
+
+.iconimg {
+  width: 20px;
+}
+.icon-background {
+  background-color: #212121;
+  padding: 3px;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+.btnhover{
+  display: none;
+}
+
+.Tabscreenbtns{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 13px;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+ .Tabscreenbtns button {
+  font-size: 0.8rem;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+ }
+ 
+ .Tabscreenbtns button:hover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ .Tabscreenbtns button:active {
+  transform: translate(0em, 0.2em);
+ }
+
+ .Tabscreenbtns>button:nth-child(1)>div {
+  width: 180%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  right: 16px;
+
+ }
+ 
+ .Tabscreenbtns>button:nth-child(2)> .mobilegitbtn{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  right: 16px;
+ 
+ }
+ 
+ .mobilegitbtn{
+  width: 130%;
+ }
+
+
+}
+
+
+@media screen and (max-width:800px){
+
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+
+.projectimage{
+  width: 98%;
+}
+
+.content .heading {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+
+}
+
+.content .para {
+  line-height: 1.5;
+  color: black;
+  font-size: 0.6rem;
+  text-align: justify;
+  
+}
+
+.iconimg {
+  width: 16px;
+}
+
+.content{
+  margin: auto;
+  /* margin-top: -30px; */
+}
+.icon-background {
+  background-color: #212121;
+  padding: 2px;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+.para{
+  margin-top: -10px;
+
+}
+.btnhover{
+  display: none;
+}
+.smallscreenbtns{
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+
+}
+}
+
+
+

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.nav-resume-button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    bottom: 5px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 20px;
+  }
+  
+  .nav-resume-button:hover {
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .type1::after {
+    content: "Thanks 🤝";
+    height: 30px;
+    width: 100px;
+    background-color: #0E4166;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1::before {
+    content: "⬇️ Resume";
+    height: 30px;
+    width: 100px;
+    background-color: #fff;
+    color: #008080;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .type1:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }
+
+
+.active-nav-resume-button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    bottom: 5px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 20px;
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .active-nav-resume-button:hover {
+    box-shadow: .5px .5px 150px #252525;
+  }
+  
+  .active-type1::after {
+    content: "Thanks 🤝";
+    height: 30px;
+    width: 100px;
+    background-color: #0E4166;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .active-type1::before {
+    content: "⬇️ Resume";
+    height: 30px;
+    width: 100px;
+    background-color: #fff;
+    color: #008080;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .active-type1:hover::after {
+    transform: translateY(0) scale(1.2);
+  }
+  
+  .active-type1:hover::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+  }
+
+
+
+
+
+  /* CSS for the scroll-to-top button */
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #0E4165;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scroll-to-top-button.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .scroll-to-top-button:hover {
+    background-color: #555;
+  }
+  
+  .scroll-to-top-button:focus {
+    outline: none;
+  }
+  
+  .scroll-to-top-button::before {
+    font-weight: 900;
+    font-size: 16px;
+  }
+  
+  .icon-up{
+    width: 30px;
+    height: 30px;
+  }
+  /* Add the Font Awesome CSS link in your HTML file or import the icons properly in your project */
+  
+  
+
+  .mob-menu{
+    height: 30px;
+    padding-left: 10px;
+    background: rgb(99,192,211);
+background: linear-gradient(90deg, rgba(99,192,211,1) 28%, rgba(58,125,206,1) 100%);
+  }
+
+  .mob-menu>a{
+    color: #a8dff1;
+  }
+
+ 

@@ -1,0 +1,120 @@
+.top_header_div {
+  background-color: transparent;
+  width: 100%;
+  height: 63px;
+  position: fixed;
+  z-index: 10;
+  /* border: 1px solid red; */
+}
+
+.active{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  width: 100%;
+  height: 63px;
+  position: fixed;
+  z-index: 10;
+  
+}
+
+
+.nav {
+  margin: auto;
+  width: 100%;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#nav_links {
+
+  width: 55vw;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid red;
+
+}
+
+.title_logo {
+  margin-left: 30px;
+}
+
+.title_logo>img {
+  width: 100px;
+}
+
+#nav_links>li>a {
+  letter-spacing: 0.8px;
+  letter-spacing: 2px;
+  color: #008080;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.menu_icon{
+  display: none;
+}
+.styles.icon_btn{
+  width: 20px;
+}
+
+
+
+
+
+
+
+/* **********   Tab Screens **********/
+
+@media screen and (min-width: 767px) and (max-width: 1124px){
+
+  #nav_links {
+    display: none;
+  }
+  .menu_icon{
+    display: block;
+    margin-right: 5%;
+  }
+}
+
+
+
+@media screen and (max-width: 767px){
+  .title_logo {
+    margin-left: 20px;
+  }
+  
+  .title_logo>img {
+    width: 70px;
+  }
+}
+
+
+
+
+
+
+
+
+/* **********   Small Screens **********/
+
+@media screen and (max-width: 767px) {
+  #nav_links {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+    height: 60px;
+  }
+
+
+  .menu_icon{
+    display: block;
+    margin-right: 5%;
+  }
+
+
+
+}
