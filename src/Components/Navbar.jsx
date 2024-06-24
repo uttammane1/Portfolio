@@ -50,7 +50,7 @@ const Navbar = () => {
             <nav className={styles.nav}>
 
                 <div className={styles.title_logo}>
-                  <h1>Uttam</h1>
+                  <h1>Chetan</h1>
                 </div>
                 <div >
                     <ul id={styles.nav_links} >
