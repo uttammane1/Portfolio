@@ -35,7 +35,7 @@ const Nav = () => {
   }
 
   const handleDownload = () => {
-    window.open("https://drive.google.com/file/d/1mZUguvXJML-yjcEICyvPLHYFurrVGxPx/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1boEjDYbzgHnGzbi5iqwrRwPONQ8UyI7q/view?usp=sharing");
     const link = document.createElement('a');
 
     link.href = Uttam_Mane_Resume;
