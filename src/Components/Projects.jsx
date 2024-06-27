@@ -533,4 +533,3 @@ const Weathergithublink = ()=>{
 
 export default Projects;
 
-// project
